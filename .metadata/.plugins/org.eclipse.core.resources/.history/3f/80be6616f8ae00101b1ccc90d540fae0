@@ -1,0 +1,69 @@
+package Test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello, Java");
+		System.out.println("Hello, Java");
+		
+		char var1 = 'A';
+		char c1 = 97;
+		
+		char var2 = '가';
+		char c2 = 0xD7A3;
+		
+		System.out.println(var1);
+		System.out.println(c1);
+		
+		System.out.println(var2);
+		System.out.println(c2);
+		
+		float f1 = 10.5f;
+		
+		double d1 = 10.5;
+		
+		System.out.println(f1);
+		System.out.println(d1);
+		
+		float f2 = 2147483648f;
+		float f3 = 2147483658f;
+		float f4 = 2147483668f;
+		
+		System.out.println(f2);
+		System.out.println(f3);
+		System.out.println(f4);
+		
+		String str1 = "박\t진\t희";
+		String str2 = "홍\n길\n동";
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		//자동 형변환
+		int intA = 10000;
+		byte byteB = 20;
+		
+		//intA = byteB; //a = (int)b;
+		
+		System.out.println(intA);
+		System.out.println(byteB);
+		
+		//강제 형변환
+		System.out.println("---------강제 형변환---------");
+		byteB = (byte)intA;
+		
+		System.out.println(intA);
+		System.out.println(byteB);
+		
+		System.out.println("---------실수 형변환---------");
+		
+		double dNum = 10.5;
+		int iNum =10;
+		dNum= 1Num; //자동형변환 dNum = (double)iNum -> dNum = 10.0
+		System.out.println(dNum);
+		
+		
+	}
+
+}

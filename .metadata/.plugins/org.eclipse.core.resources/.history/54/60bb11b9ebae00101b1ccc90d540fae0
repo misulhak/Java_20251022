@@ -1,0 +1,25 @@
+package Test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello, Java");
+		System.out.println("Hello, Java");
+		
+		char var1 = 'A';
+		char c1 = 97;
+		
+		char var2 = '가';
+		char c2 = 44032;
+		
+		System.out.println(var1);
+		System.out.println(c1);
+		
+		System.out.println(var2);
+		System.out.println(c2);
+		
+		
+	}
+
+}
