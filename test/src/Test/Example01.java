@@ -22,19 +22,18 @@ public class Example01 {
 		
 		String name = sc.nextLine();
 		System.out.println("이름은 : " + name);
-		System.out.println("end!!");
 		
 		int age = Integer.parseInt(sc.nextLine());
 		System.out.println("나이는 : " + age);
-		System.out.println("end!!");
 		
 		String address = sc.nextLine();
 		System.out.println("주소는 : " + address);
-		System.out.println("end!!");
 		
 	    double weight = Double.parseDouble(sc.nextLine());
 		System.out.println("몸무게는 : " + weight);
+		
 		System.out.println("end!!");
+		
 	}
 
 }
