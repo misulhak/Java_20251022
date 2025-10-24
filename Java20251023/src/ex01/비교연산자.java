@@ -19,8 +19,7 @@ public class 비교연산자 {
 		System.out.println("--------------------");
 		String s1 = "Korea";
 		String s2 = "Korea";
-		//System.out.println(s1 == s2); 가능하지만 반드시 equals 사용
-		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s2)); //System.out.println(s1 == s2); 가능하지만 반드시 equals 사용
 		
 		System.out.println("--------------------");
 		
