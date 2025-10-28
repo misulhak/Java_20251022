@@ -10,7 +10,7 @@ public class WhileEx06 {
 		 * 무한 반복
 		*/
 		
-		boolean run = true;
+		boolean run = true; // boolean = 두 가지 값 중 하나를 가질 수 있는 기본 데이터 유형. true 또는 false. 
 		
 		int speed = 0;
 		
